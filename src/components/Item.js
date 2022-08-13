@@ -5,7 +5,7 @@ import {useDrag} from 'react-dnd';
 
 const Item = ({item}) => {
     const [{isDragging},drag,dragPreview] =useDrag(()=>({
-        type: DragTypes.ITEM,
+        type: item.type,
         item: item,
         collect:(monitor) =>({
             isDragging: !!monitor.isDragging(),

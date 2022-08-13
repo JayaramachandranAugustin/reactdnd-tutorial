@@ -4,12 +4,44 @@
     height:400px;
     margin-left: 10px;
 }
+.section-title{
+    padding: 0 50px;
+    border-bottom:2px solid green; ;
+}
 .drag-section{
 
 }
+.form{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.form-title{
+    padding: 5px;
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+.form-select{
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 1.2em;
+}
+.form-submit{
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 1.2em;   
+}
 
-.isover-section{
+.isover-vegetable{
     background-color: beige;
+}
+
+.isover-fruit{
+    background-color: bisque;
+}
+
+.isover-drink{
+    background-color: azure;
 }
 
 .drop-item{
