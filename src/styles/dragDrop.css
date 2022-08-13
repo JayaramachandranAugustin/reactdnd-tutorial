@@ -1,0 +1,29 @@
+.drop-section{  
+    border:2px solid green;
+    width:200px; 
+    height:400px;
+    margin-left: 10px;
+}
+.drag-section{
+
+}
+
+.isover-section{
+    background-color: beige;
+}
+
+.drop-item{
+    padding:0 5px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.item{
+    padding:5px;
+    border: 1px solid red;
+    width:200px;
+}
