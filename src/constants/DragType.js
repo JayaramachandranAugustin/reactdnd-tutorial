@@ -1,3 +1,5 @@
 export const DragTypes = {
-    ITEM : "item"
+    FRUIT : "fruit",
+    VEGETABLE : "vegetable",
+    DRINK : "drink"
 }
